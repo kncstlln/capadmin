@@ -14,49 +14,49 @@
     <title>Dashboard</title>
 </head>
 <body class="m-0 p-0">
-    <nav class="sidebar  z-2">
+    <nav class="sidebar p-0 " >
         <div class="logo_items flex justify-content-center">
           <span class="nav_image">
             <img src="images/logo.png" alt="logo_img" />
           </span>
         </div>
-        <div class="menu_container ">
+        <div class="menu_container" >
           <div class="menu_items">
             <ul class="menu_item" style="padding-left:0%;">
-              <li class="item mt-5 mb-5">
+              <li class="item mt-5 mb-5 mx-3" >
                 <a href="dashboard.html" class="link flex">
                     <i class="fa-solid fa-house"></i>
-                  <span class="fs-2">Dashboard</span>
+                  <span class="fs-2 ps-5">Dashboard</span>
                 </a>
               </li>
-              <li class="item mb-5">
+              <li class="item mb-5 mx-3">
                 <a href="#" class="link flex">
                     <i class="fa-solid fa-house-user"></i>
-                  <span class="fs-2">Landlords</span>
+                  <span class="fs-2 ps-5">Landlords</span>
                 </a>
               </li>
-              <li class="item mb-5">
+              <li class="item mb-5 mx-3">
                 <a href="#" class="link flex">
                     <i class="fa-solid fa-users"></i>
-                  <span class="fs-2">Users</span>
+                  <span class="fs-2 ps-5">Users</span>
                 </a>
               </li>
-              <li class="item mb-5">
+              <li class="item mb-5 mx-3">
                 <a href="#" class="link flex">
                     <i class="fa-solid fa-building-user"></i>
-                  <span class="fs-2">Properties</span>
+                  <span class="fs-2 ps-5">Properties</span>
                 </a>
               </li>
-              <li class="item mb-5">
+              <li class="item mb-5 mx-3">
                 <a href="#" class="link flex">
                     <i class="fa-solid fa-horse"></i>
-                  <span class="fs-2">Reviews</span>
+                  <span class="fs-2 ps-5">Reviews</span>
                 </a>
               </li>
-              <li class="item mb-5">
+              <li class="item mb-5 mx-3">
                 <a href="#" class="link flex">
                     <i class="fa-solid fa-drumstick-bite"></i>
-                  <span class="fs-3"> Application Requests</span>
+                  <span class="fs-2 ps-5">Requests</span>
                 </a>
               </li>
             </ul>
@@ -71,7 +71,7 @@
   
     <div class="container-fluid m-0 p-0">
         <div class="hero-banner m-0 p-0">
-            <img src="../capadmin/images/room.jpg" class="img-fluid" width="99999" alt="">
+            <img src="../capadmin/images/room.jpg"  width="99999" alt="">
         </div>
         <div class="logo">
             <img src="../capadmin/images/logo.png" class="img-fluid" alt="">
@@ -82,52 +82,54 @@
         <p class="hero-subtitle">
             Discover Your Ideal Dormitory in Angeles City with Apt Iba Pa!
         </p>
-        <div class="hero-button">
-            <a class="btn fs-3 pt-3" href="#banner-cards" role="button">Start Managing</a>
+        <div class="row">
+          <div class="col-2 hero-button" >
+              <a class="btn" href="#banner-cards" role="button">Start Managing</a>
+          </div>
         </div>
     </div>
 
     <div class="container cards" id="banner-cards">
         <div class="row banner-cards justify-content-between">
-            <div class="col-3 text-center animate__animated animate__slideInLeft">
+            <div class="col-3 ps-1 pe-0 text-center animate__animated animate__slideInLeft" >
                 <a class="btn button-cards" href="#" role="button">
-                    <div class="row mt-5 pt-5">
+                    <div class="row mt-md-5 pt-5 pt-md-0">
                         <i class="fa-solid fa-house-user fa-2xl mb-5"></i>
-                        Manage Landlords
+                        <div class="col">Manage Landlords</div>
                     </div>
                 </a>
             </div>
-            <div class="col-3 text-center animate__animated animate__slideInLeft">
+            <div class="col-3 px-0 text-center animate__animated animate__slideInLeft">
                 <a class="btn button-cards" href="#" role="button">
-                    <div class="row mt-5 pt-5 justify-content-center align-items-center">
+                    <div class="row mt-md-5 pt-5 pt-md-0 justify-content-center align-items-center">
                         <i class="fa-solid fa-users fa-2xl mb-5"></i>
-                        Manage Users
+                        <div class="col">Manage Users</div>
                     </div>
                 </a>
             </div>
-            <div class="col-3 text-center animate__animated animate__slideInLeft">
+            <div class="col-3 ps-0 pe-1 text-center animate__animated animate__slideInLeft">
                 <a class="btn button-cards" href="#" role="button">
-                    <div class="row mt-5 pt-5">
+                    <div class="row mt-md-5 pt-5 pt-md-0">
                         <i class="fa-solid fa-building-user fa-2xl mb-5"></i>
-                        Manage Properties
+                        <div class="col">Manage Properties</div>
                     </div>
                 </a>
             </div>
         </div>
-        <div class="row mt-5 banner-cards justify-content-evenly">
-            <div class="col-3 text-center animate__animated animate__slideInRight">
+        <div class="row mt-3 mt-md-5 banner-cards justify-content-evenly">
+            <div class="col-4 col-md-3 text-center animate__animated animate__slideInRight">
                 <a class="btn button-cards" href="#" role="button">
-                    <div class="row mt-5 pt-5">
+                    <div class="row mt-md-5 pt-5 pt-md-0">
                         <i class="fa-solid fa-horse fa-2xl mb-5"></i>
-                        Application Requests
+                        <div class="col">Application Requests</div>
                     </div>
                 </a>
             </div>
-            <div class="col-3 text-center animate__animated animate__slideInRight">
+            <div class="col-4 col-md-3 text-center animate__animated animate__slideInRight">
                 <a class="btn button-cards" href="#" role="button">
-                    <div class="row mt-5 pt-5 justify-content-center align-items-center">
+                    <div class="row mt-md-5 pt-5 pt-md-0 justify-content-center align-items-center">
                         <i class="fa-solid fa-drumstick-bite fa-2xl mb-5"></i>
-                        Manage Reviews
+                        <div class="col">Manage Reviews</div>
                     </div>
                 </a>
             </div>
